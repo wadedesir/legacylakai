@@ -1,13 +1,17 @@
 import * as React from "react";
 
-// 1. import `NextUIProvider` component
-import { NextUIProvider } from "@nextui-org/react";
+import { Layout } from "../components/Layout";
+import Nav from "../components/Nav";
+import Cta from "../components/Cta";
 
-function App({ Component }) {
+function App({}) {
   // 2. Use at the root of your app
   return (
-    <NextUIProvider>
-      <Component />
-    </NextUIProvider>
+    <Layout>
+      <Nav />
+      <Cta />
+    </Layout>
   );
 }
+
+export default App;
