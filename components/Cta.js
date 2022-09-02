@@ -36,6 +36,7 @@ const styles = {
   title: {
     // fontFamily: "lato",
     fontSize: "35px",
+    color: "rgba(107, 52, 35, 1)",
   },
   subtitle: {
     fontSize: "20px",
