@@ -7,18 +7,19 @@ import logo from "../images/logo/cover.png";
 const styles = {
   container: {
     width: "100vw",
-    height: "15vh",
-    borderBottom: "4px solid #F0E9DA",
+    height: "8vh",
     display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
+    justifyContent: "space-between",
     alignItems: "center",
-    padding: "5%",
-    paddingBottom: "4%",
+    padding: "1%",
+    // paddingBottom: "4%",
   },
   logo: {
     // height: "700px",
-    width: "15%",
+  },
+  logoText: {
+    fontSize: "25px",
+    fontWeight: "black",
   },
   menu: {
     // border: "1px solid red",
@@ -35,7 +36,7 @@ function NavBar(props) {
   return (
     <div style={styles.container}>
       <div style={styles.logo}>
-        <Image src={logo} layout="responsive" />
+        <h1 style={styles.logoText}>Legacy Lakay</h1>
       </div>
       <ul style={styles.menu}>
         <Link href="">

@@ -5,19 +5,7 @@ import { Button } from "@nextui-org/react";
 import mapPic from "../images/map.jpg";
 
 function Cta(props) {
-  return (
-    <div className="mapContainer">
-      <div style={styles.modalStyles}>
-        <h1 style={styles.title}>Are you ready to take over the world?</h1>
-        <p>
-          lorem ipssum dolor test this and that and latin and lorem ipsum dolor
-          lorem ipssum dolor test this and that and latin and lorem ipsum dolor
-          lorem ipssum dolor test this and that and latin and lorem ipsum dolor
-        </p>
-        <Button style={styles.button}>Get Started</Button>
-      </div>
-    </div>
-  );
+  return <div className="mapContainer"></div>;
 }
 
 const styles = {
