@@ -7,11 +7,12 @@ import logo from "../images/logo/cover.png";
 const styles = {
   container: {
     width: "100vw",
-    height: "8vh",
+    height: "63px",
     display: "flex",
-    justifyContent: "space-between",
+    justifyContent: "center",
     alignItems: "center",
-    padding: "1%",
+    borderBottom: "3px solid #CCAE89",
+    padding: '1%'
     // paddingBottom: "4%",
   },
   logo: {
@@ -19,7 +20,8 @@ const styles = {
   },
   logoText: {
     fontSize: "25px",
-    fontWeight: "black",
+    fontWeight: "bold",
+    // color: "#CCAE89",
   },
   menu: {
     // border: "1px solid red",
@@ -27,18 +29,19 @@ const styles = {
   link: {
     padding: 5,
     color: "#F0E9DA",
-    fontSize: "18px",
+    fontSize: "21px",
     fontWeight: "bold",
+    color: "#000",
   },
 };
 
 function NavBar(props) {
   return (
     <div style={styles.container}>
-      <div style={styles.logo}>
+      {/* <div style={styles.logo}>
         <h1 style={styles.logoText}>Legacy Lakay</h1>
-      </div>
-      <ul style={styles.menu}>
+      </div> */}
+      <ul style={styles.menu} className="menu">
         <Link href="">
           <a style={styles.link}>Game</a>
         </Link>

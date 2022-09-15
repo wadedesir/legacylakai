@@ -3,7 +3,7 @@ import { Button } from "@nextui-org/react";
 
 function RCTA(props) {
   return (
-    <div style={styles.container}>
+    <div style={styles.container} className='RctaContainer'>
       <h1 style={styles.head}>Explore and Conquer the World of Legacy Lakay</h1>
       <h3>lorem Text ipsum dolor lalala and lorem ipsum dolor</h3>
       <div style={styles.buttonContainer}>
@@ -25,6 +25,7 @@ const styles = {
     paddingRight: "20vw",
   },
   head: {
+    fontFamily: "Lato",
     fontSize: "80px",
     fontWeight: "Bold",
     textAlign: "center",
@@ -36,7 +37,15 @@ const styles = {
   },
   buttons: {
     margin: "10px",
+    height: '50px',
+    width: '200px',
+    fontSize: '20px',
+    fontWeight: 'bold',
+    backgroundColor: '#CCAE89',
   },
+  blob: {
+  
+  }
 };
 
 export default RCTA;

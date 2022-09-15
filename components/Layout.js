@@ -8,7 +8,6 @@ export const Layout = ({ children }) => (
       overflow: "hidden",
       // backgroundColor: "#826F69",
       width: "100vw",
-      height: "100vh",
     }}
   >
     {children}

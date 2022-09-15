@@ -28,7 +28,7 @@ body {
 .mapContainer {
   background-image: url("../images/maps.jpg");
   width: 80%;
-  height: 75vh;
+  height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -37,4 +37,18 @@ body {
   margin: auto;
   margin-top: 3vh;
   border-radius: 20px;
+}
+
+.RctaContainer button:hover{
+  background-color: #f5f5f5;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.blobFill{
+  --fill: #93807d;
+}
+
+.menu a:hover{
+  color: #93807d !important;
 }
